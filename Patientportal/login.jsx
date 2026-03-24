@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { useNavigate } from "react-router-dom";
-
+const API_URL = "https://healthtest-production-3366.up.railway.app";
 
 
 const ECGCanvas = ({ color = "#00ff9d", glowColor = "#00ff9d" }) => {
